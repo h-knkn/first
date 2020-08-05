@@ -1,0 +1,69 @@
+/* max-width: 1050px */
+
+
+/* header */
+.header-menu {
+  margin: 0 30px 0 auto;
+}
+
+
+
+/* vision */
+.vision {
+  font-size: 1em;
+}
+
+/* About */
+
+.about-inner {
+  flex-direction: column-reverse;
+}
+.about-r {
+  width: 50%;
+  margin: 0  auto;
+}
+.responsive-df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.about-l {
+  width: 55%;
+}
+
+.about-m {
+  width: 40%;
+  margin: 0;
+}
+.skill {
+  width: 315px;
+}
+
+/* Service */
+
+.service-inner {
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-box {
+  width: 100%;
+}
+.service-box:not(:last-child) {
+  margin-bottom: 30px;
+}
+.service-inner h3 {
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+/* Contact  */
+
+.contact h3 {
+  font-size: 1em;
+}
+.contact-p {
+  font-size: .8em;
+}

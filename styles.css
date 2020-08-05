@@ -1,0 +1,409 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf8f5;
+}
+body, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' ,"M PLUS Rounded 1c" , sans-serif !important;
+  color:#5d261b;
+
+}
+h2 {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  display: none;
+}
+.br {
+  display: none;
+}
+
+/* 日本語見出し */
+.sub {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sub-title {
+  font-size: 1.2em;
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+.sub-title:before, .sub-title:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 1px;
+  background-color: black;
+}
+.sub-title:before {
+  left:10px;
+}
+.sub-title:after {
+  right: 10px;
+}
+/* 日本語見出し */
+
+
+.inner {
+  padding: 0 8%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hide {
+  height: 80px;
+  background-color:#F2E8D3;
+}
+
+/* header */
+
+header {
+  background-color:#F2E8D3;
+  position: fixed;
+  width: 100%;
+  z-index: 9999 !important;
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  padding-left: 40px;
+}
+.header-logo img {
+  width:100px;
+  height: 60px;
+
+}
+.header-menu {
+  display: flex;
+  margin-left: 26%;
+  align-items: center;
+  height: 80px;
+  color: #5d261b;
+  font-weight: 600;
+}
+.header-menu ul {
+  margin: 0;
+  padding: 0 0 0 0 ;
+}
+.header-menu li {
+  list-style: none;
+  display: inline-block;
+}
+.header-menu li:hover {
+  opacity: .7;
+}
+.header-menu li:not(:last-child) {
+  margin-right: 40px;
+}
+.header-menu a {
+  color:#3E3E3E;
+}
+.header-menu a:hover {
+  text-decoration: none;
+  color:#3E3E3E;
+}
+
+/* vision */
+
+.vision {
+  padding: 40px 0;
+  font-size: 1.3em;
+  text-align: center;
+}
+.vision p {
+  font-family: "Sawarabi Mincho" !important; 
+  line-height: 1.8em;
+}
+.vision img {
+  padding: 20px 0;
+}
+
+/* About */
+
+.about {
+  padding: 40px 0;
+}
+.about-inner {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.responsive-df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.about-l {
+  width: 62%;
+}
+.about-l h4 {
+  font-weight: 600;
+  font-size: 1.7em;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+.about-l h5 {
+  font-size: 1em;
+}
+
+.about-m {
+  width:30%;
+  margin-left: 0 20px;
+}
+
+.about-m p {
+  margin-bottom: 5px;
+}
+.skill {
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+}
+#skill1 {
+  background:linear-gradient(90deg, #E1C098 0%,#E1C098 90%, #c2683ed3 10% 100%);
+}
+#skill2 {
+  background:linear-gradient(90deg, #E1C098 0%,#E1C098 70%, #c2683ed3 30% 100%);
+}
+#skill3 {
+  background:linear-gradient(90deg, #E1C098 0%,#E1C098 80%, #c2683ed3 20% 100%);
+}
+.skill span {
+  font-size: .8em;
+  display: block;
+  text-align: center;
+}
+.about-r {
+  width: 40%;
+  margin: 0 0 0 15%;
+}
+.about-r img {
+  width:100%;
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 2px rgba(160, 160, 160, 0.8));
+ 
+}
+
+/* Service */
+.service {
+  padding: 40px 0;
+}
+.service-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.service-inner h3 {
+  font-size: 1.7em;
+  text-align: center;
+}
+.text-r {
+  padding-left: 30px;
+}
+.service-box {
+  width: calc(33.33333333% - 30px);
+  background-color: #fff5e8;
+  padding: 20px;  
+  border-radius: 10px;
+  position: relative;
+}
+
+#icon {
+  position: absolute;
+}
+
+/* Price */
+
+.price {
+  padding: 40px 0;
+}
+
+.table-box {
+  padding: 20px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+table {
+   
+   max-width: 960px;
+   width: 100%;
+   height: 60px;
+   margin: 0 auto; 
+  }
+th {
+  background-color: #E1C098;
+  color:#FFFFFF;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.5em;
+}
+th, td {
+  padding:10px  0 ;
+  border: 1px solid #707070;
+}
+tr {
+  border: 1px solid #707070;
+}
+td {
+  background-color: rgba(255, 255, 255, 0.801);
+  text-align: center;
+  font-size: 1.2em;
+
+}
+
+/* Works */
+.works {
+ padding: 40px 0;
+}
+
+.slide {
+  padding: 30px 0;
+}
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* ここからモーダル */
+
+.modal{
+  display: none;
+  height: 115vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.modal__bg{
+  background:#000000c7;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.modal__content{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.modal__content p {
+  color:#FFFFFF;
+  font-size: 16px;
+}
+.modal__content img {
+  max-height: 580px;
+  display: block;
+  margin: 0 auto;
+}
+.modal__content a {
+ position: absolute;
+ display: inline-block;
+ top:0;
+ left:-20%;
+ color:#FFFFFF;
+ opacity: .7;
+}
+.modal__content a:hover {
+  opacity: 1;
+}
+
+/* モーダル */
+
+/* Contact */
+
+.contact {
+  padding: 40px 0;
+  text-align: center;
+}
+.text-box  {
+  width: 100%;
+  margin-top: 40px;
+}
+.contact h3 {
+  font-size: 1.3em;
+  font-family: "Sawarabi Mincho" !important; 
+  line-height: 1.5em;
+}
+.contact-p {
+  font-family: "Sawarabi Mincho" !important; 
+  padding: 15px 0;
+}
+
+.text-box img {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact-button {
+  background-color: #5d261b;
+  color: #FFFFFF;
+  border:none;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+.contact-button:hover {
+  opacity: .8;
+}
+.contact-button:focus {
+  outline: none;
+}
+
+footer {
+  background-color: #F2E8D3;
+  font-size: 14px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

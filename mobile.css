@@ -1,0 +1,143 @@
+/* max-width: 700px */
+
+.br {
+  display: block;
+}
+.hide  {
+  display: none;
+}
+
+/* header */
+
+header {
+  height: 80px;
+  display: block;
+  position: relative;
+}
+.header-menu {
+  display: none;
+}
+.header-logo {
+  padding-top: 10px;
+}
+
+/* ドロワー */
+nav{
+  width: 100%;
+  display: block;
+ }
+ .drawer{
+  display: flex;
+  align-items: center;
+  height: 75px;
+  position: absolute;
+  top:0;
+  left:90%;
+ 
+ }
+ .navbar_toggle {
+   display: block;
+   margin: 0  30px 0 auto;
+ }
+ 
+ .hamburger.open {
+   content: url('img/close.png');
+ }
+
+ .menu{
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+  -webkit-transition:ease .5s;
+  transition:ease .5s;
+  z-index:1000;
+  background-color: #faf8f5;
+  width: 100%;
+ }
+ .menu ul li{
+  padding: 2em;
+  border-bottom: 1px double rgba(99, 73, 59, 0.685);
+  list-style: none;
+ }
+ .menu ul {
+   padding: 0;
+ }
+ .menu a {
+  color: #5d261b;
+ }
+ /*OPEN時の動き*/
+ .menu.open {
+  -webkit-transform:translateX(0);
+  transform:translateX(0);
+  overflow-y: auto;
+  /* -webkit-overflow-scrolling: touch; */
+ }
+
+ .menu-hide {
+   display: none;
+ }
+
+/* ドロワー */
+
+/* Vision */
+
+.vision img {
+  width: 100%;
+}
+
+/* About */
+
+.about-r {
+  width: 100%;
+}
+.responsive-df {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  justify-content: center;
+}
+.about-l {
+  width: 100%;
+ 
+}
+.about-m {
+  width: 100%;
+  margin-top: 10px;
+ 
+}
+.skill {
+  width: 338px;
+}
+
+/* Service */
+#padding-less {
+  padding-left: 35px;
+}
+
+
+/* Price */
+
+th {
+  font-size: 1.2em;
+}
+td {
+  font-size: .9em;
+}
+
+/* Price */
+
+.modal__content {
+  width: 70%;
+}
+.modal__content p {
+  text-align: center;
+}
+.modal__content a {
+  left: -10%;
+}
+
+
+/* footer */
+
+footer {
+  font-size: 12px;
+}

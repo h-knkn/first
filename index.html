@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href="favicon.ico" rel="shortcut icon">   -->
+  <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png"/>                       <!-- favicon -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>    <!-- Jquery -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">   <!-- ブートストラップ -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    <!-- Wow.js -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">       <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 1050px)">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 700px)">
+
+
+  <title>Kana"s Photofolio</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="header-logo">
+      <img src="img/logo1.png"alt="">
+    </div>
+
+    <div class="header-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#price">Price</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- ドロワー -->
+    <nav>
+        <div class="drawer">
+         <div class="navbar_toggle">
+          <img class="hamburger" src="img/hamburger.png" alt="">
+         </div>
+        </div>
+        <div class="menu">
+         <ul>
+          <li><a id="menu-link" href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+         </ul>
+        </div>
+    </nav>
+
+    <!-- ドロワー -->
+
+  </header>
+
+<div class="inner">
+
+  <div class="hide"></div>
+
+  <!-- Vision -->
+
+  <div class="vision">
+    <img src="img/b_illust_118_1M.png" alt="underline" width="65%">
+    <p>はじめまして。 原田佳奈と申します。</p>
+    <p>山口県下関市で生まれ、<br class="br">韓国で大学を卒業しました。</p>
+    <p>いろいろな事に興味を持ち、<br class="br">やり始めたことは自分の納得がいくまで挑戦し続けます。</p>
+    <p>現在はWeb制作を始め、日々努力中です。</p>
+    <p>ホームページ制作、動画編集などはお任せください。</p>
+    <p>納期の厳守はもちろん、修正などのご依頼にも<br class="br">最後まで責任を持って引き受けさせていただきます。</p>
+    <img src="img/b_illust_118_1M.png" alt="underline" width="65%">
+  </div>
+
+  <!-- About -->
+  <div id="about" class="about  wow fadeIn"  data-wow-duration="1s" data-wow-delay=".3s" data-wow-offset="10" data-wow-iteration="1">
+    <h2>About</h2>
+    <div class="sub">
+      <p class="sub-title">自己紹介</p>
+    </div>
+
+    <div class="about-inner">  
+
+
+      <div class="responsive-df">
+      <div class="about-l">
+        <h4>Kana Harada </h4>
+        <h5>1994年生まれ、25歳</h5>
+        <h5>山口県下関市出身</h5>
+        <h5>韓国留学 5年 / オーストラリア留学 6ヵ月</h5>
+        <h5>前職→外資系CA (ベトナム)</h5>
+        <h5>20カ国以上の旅行経験あり</h5>
+      </div>  <!-- about-l -->
+
+      <div class="about-m">
+        <div class="skills">
+
+          <div class="skill-box">
+            <p>html/css</p>
+            <div class="skill" id="skill1"><span>90%</span></div>
+          </div>
+  
+          <div class="skill-box">
+            <p>Javascript</p>
+            <div class="skill"  id="skill2"><span>70%</span></div>
+          </div>
+  
+          <div class="skill-box">
+            <p>Premiere Pro</p>
+            <div class="skill" id="skill3"><span>80%</span></div>
+          </div>
+
+        </div>  <!-- skills -->
+      </div>    <!-- about-m -->
+    </div>      <!-- responsive-df -->
+    
+
+      <div class="about-r">
+        <img src="img/kana.jpg" alt="kana's photo">
+      </div>   <!-- about-r -->
+
+    </div>  <!-- about-inner -->
+  </div>    <!-- About -->
+
+  <!-- Service -->
+
+  <div id="service" class="service wow fadeIn"  data-wow-duration="1.5s" data-wow-delay=".7s" data-wow-offset="10" data-wow-iteration="1" >
+    <h2>Service</h2>
+    <div class="sub">
+      <p class="sub-title">サービス</p>
+    </div>
+
+    <div class="service-inner">
+      <div class="service-box">
+        <i class="fas fa-desktop fa-2x" id="icon"></i>
+        <h3 class="text-r">ホームページ制作</h3>
+        <p>まず、ヒアリングを通してお客様の希望をお聞きします。デザインに関してはこちらがご用意するテンプレートの中からお客様のイメージに最も近いものをお選びいただき、ご希望に合わせて細部のカスタマイズをいたします。現在お持ちのWebサイトの運用・更新から、新規ページ制作も対応できますのでお気軽にご相談ください。</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-mobile-alt fa-2x" id="icon"></i>
+        <h3 id="padding-less">レスポンシブ化</h3>
+        <p>レスポンシブ化されていないサイトのレスポンシブ化を行い、スマホやタブレット端末からでも見やすいサイトを制作します。現在ほとんどのホームページがレスポンシブ対応のものとなっております。レスポンシブにすることによってより分かりやすく、見やすくなるので集客アップにも繋がります。</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-video fa-2x" id="icon"></i>
+        <h3>動画編集</h3>
+        <p>現代社会ではインターネットの普及に伴い、動画に対するニーズが高まっております。なお5Gの導入により今後も需要は高まっていくでしょう。会社や商品のPRムービー、YouTube等の動画編集、サムネイルの作成などお気軽にご相談ください。</p>
+      </div>
+
+  
+    </div>   <!-- service-inner -->
+  </div>     <!-- Service -->
+
+
+  <!-- Price -->
+  <div id="price" class="price wow fadeIn"  data-wow-duration="1.5s" data-wow-delay=".7s" data-wow-offset="10" data-wow-iteration="1" >
+    <h2>Price</h2>
+    <div class="sub">
+      <p class="sub-title">価格</p>
+    </div>
+
+    <div class="table-box">
+    <table>
+      <tr>
+        <th>作業内容</th><th>価格目安</th>
+      </tr>
+      <tr>
+        <td>コーディング（LP）</td><td>30,000円〜</td>
+      </tr>
+      <tr>
+        <td>レスポンシブ化</td><td>20,000円〜</td>
+      </tr>
+      <tr>
+        <td>動画編集</td><td>3000円〜</td>
+      </tr>
+    </table>
+    </div>   <!-- table-box -->
+   
+  </div>
+
+  <!-- Works -->
+  <div id="works" class="works wow fadeIn"  data-wow-duration="1.5s" data-wow-delay=".7s" data-wow-offset="10" data-wow-iteration="1" >
+    <h2>Works</h2>
+    <div class="sub">
+      <p class="sub-title">制作物</p>
+    </div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" ><img src="img/work5.png" class="js-modal-open" data-target="modal01" width="300px" height="300px" alt=""></div>
+        <div class="swiper-slide" ><img src="img/work6.png" class="js-modal-open" data-target="modal02" width="300px" height="300px" alt=""></div>
+        <div class="swiper-slide"><img src="img/work7.png" class="js-modal-open" data-target="modal03" width="300px" height="300px" alt=""></div>
+        <div class="swiper-slide"><img src="img/work4.png" class="js-modal-open" data-target="modal04" width="300px" height="300px" alt=""></div>
+        <div class="swiper-slide"><img src="img/work9.png" class="js-modal-open" data-target="modal05" width="300px" height="300px" alt=""></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- モーダル -->
+ 
+    <div  id="modal01" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <p>有料テンプレートを使って<br class="br">初めて作ったポートフォリオ</p>
+          <img src="img/work8.png">      
+          <a class="js-modal-close" href=""><i class="far fa-times-circle fa-2x"></i></a>
+        </div>
+    </div>
+    <div  id="modal02" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <p>Youtubeチュートリアル/<br class="br">Drew Ryan</p>
+          <img src="img/work1.png">      
+          <a class="js-modal-close" href=""><i class="far fa-times-circle fa-2x"></i></a>
+        </div>
+    </div>
+    <div  id="modal03" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <p>Youtubeチュートリアル2/<br class="br">Drew Ryan</p>
+          <img src="img/work2.png">      
+          <a class="js-modal-close" href=""><i class="far fa-times-circle fa-2x"></i></a>
+        </div>
+    </div>
+    <div  id="modal04" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <p>サイト模写/<br class="br">ノマドエンジニア育成講座『iSara』</p>
+          <img src="img/work3.png">      
+          <a class="js-modal-close" href=""><i class="far fa-times-circle fa-2x"></i></a>
+        </div>
+    </div>
+    <div  id="modal05" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+          <p>30DAYSトライアル最終課題</p>
+          <img src="img/work10.png">      
+          <a class="js-modal-close" href=""><i class="far fa-times-circle fa-2x"></i></a>
+        </div>
+    </div>
+
+      <!-- モーダル -->
+     
+  </div>    <!-- Works -->
+
+  <!-- Contact -->
+  <div id="contact" class="contact wow fadeIn"  data-wow-duration="1.5s" data-wow-delay=".7s" data-wow-offset="10" data-wow-iteration="1" >
+      <h2>Contact</h2>
+      <div class="sub">
+        <p class="sub-title">お問い合わせ</p>
+      </div>
+    <div class="text-box">
+    <h3>最後までご覧いただき<br class="br">ありがとうございます。</h3>
+    <h3>お見積り、ご相談などいつでも<br class="br">対応可能ですのでお気軽にご連絡ください。</h3>
+    <h3>お客様が笑顔になれる<br class="br">お手伝いができたら幸いです。</h3>
+    <p class="contact-p">お問い合わせはこちらから</p>
+    <img src="img/buttom.png" alt="">
+
+    <input class="contact-button" type="submit" value="お問い合わせ">
+   </div>
+
+   
+
+
+  </div>   <!-- Contact -->
+
+</div>   <!-- inner -->
+
+  <!-- Footer -->
+
+  <footer>
+    <p>©Kana 2019 All Right Reserved.</p>
+  </footer>
+ 
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script >
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+<script src="script.js"></script>
+</body>
+
+loop: true,
+    paginationClickable: true,
